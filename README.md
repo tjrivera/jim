@@ -5,12 +5,12 @@ Jim is a simple service monitor that texts a number when a service is down
 
 It relies on the Twilio API to send messages to a defined phone number.
 
-Make sure to set these variables in your environement
+Make sure to set these variables in your environment
 
-`TWILIO_SID`
-`TWILIO_TOKEN`
-`SMS_FROM`
-`SMS_TO`
+* `TWILIO_SID`
+* `TWILIO_TOKEN`
+* `SMS_FROM`
+* `SMS_TO`
 
 ```bash
 $ docker build -t jim .
